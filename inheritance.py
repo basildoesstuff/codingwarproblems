@@ -45,15 +45,16 @@ class Grass_Pokemon(Pokemon):
     defense = 14
     health = 12
     p_type = "Grass"
-
+    attack_boost=10
     def update(self):
         self.health_boost = 6
         self.attack_boost = 2
         self.defense_boost = 3
         self.evolve = 12
-        
 
     def moves(self):
         self.p_moves = ["razor leaf", "synthesis", "petal dance"]
 
 
+p2=Grass_Pokemon("Bulby")
+p3=Grass_Pokemon("Pika")
